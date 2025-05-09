@@ -46,10 +46,10 @@ def print_maze_with_path(maze, path):
 
 if __name__ == "__main__":
     maze = [
-        ['S', 0, 1, 0, 'E'],
+        ['S', 0, 1, 0, 0],
         [0, 0, 1, 0, 1],
         [1, 0, 1, 0, 0],
-        [1, 0, 0, 0, 1]
+        [1, 0, 0, 'E', 1]
     ]
 
     # Converte S, E e 0 para valores padronizados
